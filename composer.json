@@ -8,7 +8,8 @@
         "php": "^7.4|^8.0",
         "laravel/lumen-framework": "^8.3.1",
         "laravel/ui": "^3.4",
-        "laravelcollective/annotations": "^8.1"
+        "laravelcollective/annotations": "^8.1",
+	"rahi/php-lumen-practice": "^0.0.1"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
@@ -38,5 +39,10 @@
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ]
-    }
+    },
+    "repositories": [
+	    { "type": "vcs", "url": "git@github.com:imtiaz-rahi/php-lumen-practice.git" },
+	    { "type": "vcs", "url": "file:///Users/imtiaz/git/shurjomukhi/shurjopay-engine-app" },
+	    { "type": "vcs", "url": "https://github.com/imtiaz-rahi/php-lumen-practice" }
+    ]
 }
